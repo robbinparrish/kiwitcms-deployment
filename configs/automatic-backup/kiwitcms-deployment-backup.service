@@ -1,0 +1,5 @@
+[Unit]
+Description=Kiwi TCMS Deployment Backup
+
+[Service]
+ExecStart=/usr/bin/kiwitcms-deployment-backup.sh
