@@ -57,6 +57,11 @@ docker-compose exec -it kiwitcms /Kiwi/manage.py refresh_permissions
 docker-compose exec -it kiwitcms /Kiwi/manage.py set_domain kiwitcms.mydomain.com
 ```
 
+- Testing email configuration.
+```bash
+docker-compose exec -it kiwitcms /Kiwi/manage.py sendtestemail EMAIL_ADDRESS
+```
+
 ### Once Initial setup is completed, we can access the webui in the browser - http://IPADDR_OF_SYSTEM
 
 [Backup and Restore](./configs/backup-and-restore.md)
