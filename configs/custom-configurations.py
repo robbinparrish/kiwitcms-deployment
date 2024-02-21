@@ -18,15 +18,3 @@ REGISTRATION_ENABLED = False
 # Max file upload size. (size in bytes - 50MB)
 FILE_UPLOAD_MAX_SIZE = "52428800"
 
-# Enable OAuth using GitLab - Not Tested.
-# https://python-social-auth.readthedocs.io/en/latest/configuration/django.html
-# AUTHENTICATION_BACKENDS = [
-#    "django.contrib.auth.backends.ModelBackend",
-#    "guardian.backends.ObjectPermissionBackend",
-#    "social_core.backends.gitlab.GitLabOAuth2",
-#]
-#SOCIAL_AUTH_GITLAB_SCOPE = ['read_user']
-#SOCIAL_AUTH_GITLAB_KEY = ""
-#SOCIAL_AUTH_GITLAB_SECRET = ""
-#SOCIAL_AUTH_GITLAB_API_URL = ""
-
