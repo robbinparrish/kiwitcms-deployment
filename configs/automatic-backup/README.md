@@ -21,5 +21,5 @@ cp kiwitcms-deployment-backup.timer kiwitcms-deployment-backup.service /etc/syst
 ## Enable the timer.
 ```bash
 systemctl daemon-reload
-systemctl enable kiwitcms-deployment-backup.timer
+systemctl enable --now kiwitcms-deployment-backup.timer
 ```
